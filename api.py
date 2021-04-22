@@ -1,6 +1,6 @@
 import flask
 from flask import request, jsonify
-from validateText import validate
+from validateWithBert import validate
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
