@@ -48,7 +48,6 @@ def validate(s1, s2):
     size_overlap = get_overlap_size(new_s1, new_s2)
     maxlen = max(len(new_s1), len(new_s2))
 
-    print(size_overlap)
     if size_overlap >= (maxlen * 9 // 10):
         err_code = 3
         err_txt = 'Câu trùng lặp với câu gốc, vui lòng thử lại.'
